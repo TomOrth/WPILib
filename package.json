@@ -1,0 +1,18 @@
+{
+    "name": "wpilib",
+    "version": "0.0.0",
+    "description": "Node.js implementation of WPILib for the FIRST Robotics Competition (FRC)",
+    "keywords": ["frc", "robot", "wpilib"],
+    "repository": "https://github.com/RoboJS/WPILib.git",
+    "homepage": "https://robojs.github.io/wpilib",
+    "author": "Andrew Dassonville <dassonville.andrew@gmail.com>",
+    "dependencies": {},
+	"devDependencies": {},
+    "main": "index.js",
+    "engines": {
+        "node": ">= 4.0.0"
+    },
+    "scripts": {
+        "prepublish": "npm prune"
+    }
+}
